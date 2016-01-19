@@ -13,6 +13,21 @@ import java.util.Objects;
  */
 public class NewClass1 {
  String s;   
+ Integer i;
+
+    public Integer getI() {
+        return i;
+    }
+
+    public void setI(Integer i) {
+        this.i = i;
+    }
+
+    @Override
+    public String toString() {
+        return "NewClass1{" + "s=" + s + ", i=" + i + '}';
+    }
+ 
 
     public String getS() {
         return s;
