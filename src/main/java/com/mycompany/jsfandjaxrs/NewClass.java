@@ -43,5 +43,9 @@ public class NewClass {
     public void setSomechanges(String somechanges) {
         this.somechanges = somechanges;
     }
+
+    public NewClass(String somechanges) {
+        this.somechanges = somechanges;
+    }
     
 }
